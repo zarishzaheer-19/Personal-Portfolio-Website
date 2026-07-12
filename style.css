@@ -98,28 +98,54 @@ section h2 {
 }
 
 /* Cards */
-
-.skills-container {
+/* Skills, Projects & Education Containers */
+{
+.skills-container,
+.project-container,
+.education-container {
     display: flex;
+    justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
-    justify-content: center;
+    margin-top: 30px;
 }
 
-.skill-box {
+/* Shared Card Style */
+{
+.skill-box,
+.project-card,
+.education-box {
+    width: 280px;
+    min-height: 180px;
     background: white;
-    width: 250px;
-    padding: 20px;
+    padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-    transition: 0.3s ease;
-    text-align:center;
-    border-top:5px solid #2563eb;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-top: 5px solid #2563eb;
+    transition: all 0.3s ease;
 }
 
-.skill-box:hover {
-    transform: translateY(-8px);
-    box-shadow:0 12px 25px rgba(37,99,235,0,25)
+.skill-box:hover,
+.project-card:hover,
+.education-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(37,99,235,0.25);
+}
+
+.skill-box h3,
+.project-card h3,
+.education-box h3 {
+    color: #0b2948;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.skill-box p,
+.project-card p,
+.education-box p {
+    color: #555;
+    line-height: 1.6;
 }
 
 /* Contact */
