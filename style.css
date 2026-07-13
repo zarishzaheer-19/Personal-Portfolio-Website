@@ -208,3 +208,88 @@ nav ul li{
     width:100%;
 }
 }
+/* ==========================
+   DARK MODE BUTTON
+========================== */
+
+#theme-toggle{
+    background:#2f6df6;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+#theme-toggle:hover{
+    background:#1d4ed8;
+}
+
+/* ==========================
+   DARK MODE
+========================== */
+
+.dark-mode{
+    background:#0d1117;
+    color:#e6edf3;
+}
+
+.dark-mode header{
+    background:#161b22;
+}
+
+.dark-mode footer{
+    background:#161b22;
+}
+
+.dark-mode .hero{
+    background:#0d1117;
+}
+
+.dark-mode nav ul li a{
+    color:#ffffff;
+}
+
+.dark-mode nav ul li a:hover{
+    color:#58a6ff;
+}
+
+.dark-mode .logo{
+    color:#ffffff;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3{
+    color:#58a6ff;
+}
+
+.dark-mode p{
+    color:#c9d1d9;
+}
+
+.dark-mode .card{
+    background:#161b22;
+    color:#e6edf3;
+    border-top:5px solid #58a6ff;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.dark-mode .card h3{
+    color:#58a6ff;
+}
+
+.dark-mode .card p{
+    color:#c9d1d9;
+}
+
+.dark-mode .btn{
+    background:#238636;
+}
+
+.dark-mode .btn:hover{
+    background:#2ea043;
+    }
