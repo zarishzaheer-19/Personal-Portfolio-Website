@@ -3,168 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Zarish Zaheer, an aspiring software engineer specializing in web development.">
+    <meta name="keywords" content="portfolio, web developer, HTML, CSS, JavaScript">
+    
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Zarish Zaheer | Portfolio">
+    <meta property="og:description" content="Portfolio of Zarish Zaheer, an aspiring software engineer.">
+    <meta property="og:type" content="website">
+    
     <title>Zarish Zaheer | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <!-- Skip to main content link (for accessibility) -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
 
-<header>
-    <nav>
-        <h2 class="logo">Zarish Zaheer</h2>
+    <header>
+        <nav>
+            <h2 class="logo">Zarish Zaheer</h2>
 
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button id="theme-toggle">&#127769 Dark Mode</button>
-    </nav>
-</header>
+            <ul>
+                <li><a href="#about" aria-current="page">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
+        </nav>
+    </header>
 
-<section class="hero" id="about">
-    <h1>Hello, I'm <span>Zarish Zaheer</span></h1>
+    <main id="main-content">
+        <section class="hero" id="about">
+            <h1>Hello, I'm <span>Zarish Zaheer</span></h1>
+            <h3>Aspiring Software Engineer</h3>
+            <p>
+                I am passionate about programming and web development.
+                Currently learning HTML, CSS, JavaScript and GitHub while
+                building projects to improve my skills.
+            </p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </section>
 
-    <h3>Aspiring Software Engineer</h3>
-
-    <p>
-        I am passionate about programming and web development.
-        Currently learning HTML, CSS, JavaScript and GitHub while
-        building projects to improve my skills.
-    </p>
-
-    <a href="#projects" class="btn">View My Projects</a>
-</section>
-
-<section id="skills">
-
-    <h2>Skills</h2>
-
-    <div class="card-container">
-
-        <div class="card">
-            <h3>HTML</h3>
-            <p>Semantic HTML, Forms, Tables</p>
-        </div>
-
-        <div class="card">
-            <h3>CSS</h3>
-            <p>Responsive Design, Flexbox</p>
-        </div>
-
-        <div class="card">
-            <h3>GitHub</h3>
-            <p>Version Control & GitHub Pages</p>
-        </div>
-
-        <div class="card">
-            <h3>Problem Solving</h3>
-            <p>Logical & Analytical Thinking</p>
-        </div>
-
-    </div>
-
-</section>
-<section id="projects">
-
-    <h2>Projects</h2>
-
-    <div class="card-container">
-
-        <!-- Project 1 -->
-        <div class="card">
-            <h3>Portfolio Website</h3>
-            <p>Personal portfolio built using HTML and CSS.</p>
-
-            <div class="project-buttons">
-                <a href="https://zarishzaheer-19.github.io/Personal-Portfolio-Website/" class="btn" target="_blank">Live Demo</a>
-                <a href="https://github.com/zarishzaheer-19/Personal-Portfolio-Website" class="btn" target="_blank">GitHub</a>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>HTML</h3>
+                    <p>Semantic HTML, Forms, Tables</p>
+                </div>
+                <div class="card">
+                    <h3>CSS</h3>
+                    <p>Responsive Design, Flexbox</p>
+                </div>
+                <div class="card">
+                    <h3>JavaScript</h3>
+                    <p>DOM Manipulation, Event Handling</p>
+                </div>
+                <div class="card">
+                    <h3>GitHub</h3>
+                    <p>Version Control & GitHub Pages</p>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Project 2 -->
-        <div class="card">
-            <h3>Calculator</h3>
-            <p>Calculator built using HTML, CSS and JavaScript.</p>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Portfolio Website</h3>
+                    <p>Personal portfolio built using HTML and CSS with dark mode toggle.</p>
+                    <div class="project-buttons">
+                        <a href="https://zarishzaheer-19.github.io/Personal-Portfolio-Website/" class="btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        <a href="https://github.com/zarishzaheer-19/Personal-Portfolio-Website" class="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
 
-            <div class="project-buttons">
-                <a href="https://zarishzaheer-19.github.io/calculator/" class="btn" target="_blank">Live Demo</a>
-                <a href="https://github.com/zarishzaheer-19/calculator" class="btn" target="_blank">GitHub</a>
+                <div class="card">
+                    <h3>Calculator</h3>
+                    <p>Functional calculator built using HTML, CSS and JavaScript with basic operations.</p>
+                    <div class="project-buttons">
+                        <a href="https://zarishzaheer-19.github.io/calculator/" class="btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        <a href="https://github.com/zarishzaheer-19/calculator" class="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Weather App</h3>
+                    <p>Weather application using OpenWeather API for real-time weather data.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        <a href="#" class="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Project 3 -->
-        <div class="card">
-            <h3>Weather App</h3>
-            <p>Weather application using an API.</p>
-
-            <div class="project-buttons">
-                <a href="#" class="btn" target="_blank">Live Demo</a>
-                <a href="#" class="btn" target="_blank">GitHub</a>
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Matriculation</h3>
+                    <p>OPF Girls College F-8</p>
+                    <time>2022 - 2024</time>
+                </div>
+                <div class="card">
+                    <h3>Intermediate (ICS)</h3>
+                    <p>OPF Girls College F-8</p>
+                    <time>2024 - 2026</time>
+                </div>
+                <div class="card">
+                    <h3>Bachelor of Software Engineering</h3>
+                    <p>Air University Islamabad</p>
+                    <time>2026 - Present</time>
+                </div>
             </div>
-        </div>
+        </section>
 
-    </div>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <address>
+                <p>Email: <a href="mailto:zarishzaheer19@gmail.com">zarishzaheer19@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/zarishzaheer-19" target="_blank" rel="noopener noreferrer">github.com/zarishzaheer-19</a></p>
+            </address>
+        </section>
+    </main>
 
-</section>
+    <footer>
+        <p>&copy; 2026 Zarish Zaheer | All Rights Reserved.</p>
+        <a href="#main-content" class="back-to-top">Back to Top</a>
+    </footer>
 
-<section id="education">
-
-    <h2>Education</h2>
-
-    <div class="card-container">
-
-        <div class="card">
-            <h3>Matriculation</h3>
-            <p>OPF Girls College F-8</p>
-            <p>2022 - 2024</p>
-        </div>
-
-        <div class="card">
-            <h3>Intermediate (ICS)</h3>
-            <p>OPF Girls College F-8</p>
-            <p>2024 - 2026</p>
-        </div>
-
-        <div class="card">
-            <h3>Bachelor of Software Engineering</h3>
-            <p>Air University Islamabad</p>
-            <p>2026 - Present</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="contact">
-
-    <h2>Contact Me</h2>
-
-    <p>Email: zarishzaheer19@gmail.com</p>
-
-    <p>GitHub: github.com/zarishzaheer-19</p>
-
-</section>
-
-<footer>
-
-    <p>© 2026 Zarish Zaheer | All Rights Reserved.</p>
-
-</footer>
-    
-<script>
-const themeToggle = document.getElementById("theme-toggle");
-
-themeToggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-
-    if(document.body.classList.contains("dark-mode")){
-        themeToggle.textContent = "☀️ Light Mode";
-    } else {
-        themeToggle.textContent = "🌙 Dark Mode";
-    }
-});
-</script>
+    <script src="script.js"></script>
 </body>
-  </html>
+</html>
