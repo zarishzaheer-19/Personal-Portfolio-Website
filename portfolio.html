@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Website Project - A personal portfolio built with HTML and CSS">
+    <title>Portfolio Website Project | Zarish Zaheer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Skip to main content link -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+    <header>
+        <nav>
+            <h2 class="logo">Zarish Zaheer</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects" aria-current="page">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="project-detail">
+            <div class="project-header">
+                <h1>Portfolio Website</h1>
+                <p class="project-subtitle">A personal portfolio built using HTML and CSS with dark mode toggle</p>
+            </div>
+
+            <div class="project-content">
+                <section class="project-section">
+                    <h2>Project Overview</h2>
+                    <p>
+                        This is a modern, responsive personal portfolio website designed to showcase skills, 
+                        projects, and education. Built with clean HTML markup and professional CSS styling, 
+                        it features a sleek dark mode toggle for improved user experience.
+                    </p>
+                </section>
+
+                <section class="project-section">
+                    <h2>Technologies Used</h2>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <h3>HTML5</h3>
+                            <p>Semantic markup for better accessibility</p>
+                        </div>
+                        <div class="tech-item">
+                            <h3>CSS3</h3>
+                            <p>Responsive design, CSS variables, and dark mode</p>
+                        </div>
+                        <div class="tech-item">
+                            <h3>JavaScript</h3>
+                            <p>Theme toggle and smooth scrolling</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="project-section">
+                    <h2>Key Features</h2>
+                    <ul class="features-list">
+                        <li>Fully responsive design that works on all devices</li>
+                        <li>Dark mode toggle with localStorage persistence</li>
+                        <li>Smooth scrolling navigation</li>
+                        <li>Semantic HTML for accessibility</li>
+                        <li>Professional styling with CSS variables</li>
+                        <li>Fast loading and optimized performance</li>
+                    </ul>
+                </section>
+
+                <section class="project-section">
+                    <h2>Challenges & Solutions</h2>
+                    <div class="challenge-item">
+                        <h3>Challenge: Dark Mode Implementation</h3>
+                        <p>Ensuring the dark mode theme persists across page reloads while maintaining contrast ratios.</p>
+                        <p><strong>Solution:</strong> Used localStorage to save user preference and CSS variables for easy theme switching.</p>
+                    </div>
+                </section>
+
+                <section class="project-section project-links">
+                    <h2>View Project</h2>
+                    <div class="button-group">
+                        <a href="https://zarishzaheer-19.github.io/Personal-Portfolio-Website/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            🚀 Live Demo
+                        </a>
+                        <a href="https://github.com/zarishzaheer-19/Personal-Portfolio-Website" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                            💻 View Code on GitHub
+                        </a>
+                        <a href="index.html#projects" class="btn btn-secondary">
+                            ← Back to Projects
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Zarish Zaheer | All Rights Reserved.</p>
+        <a href="#main-content" class="back-to-top">Back to Top</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
