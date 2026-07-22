@@ -143,7 +143,7 @@ nav ul li a:focus-visible {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: var(--card-bg);
+    background:linear-gradient(135deg, #f8fbff,#eaf4ff);
 }
 
 .hero h1 {
