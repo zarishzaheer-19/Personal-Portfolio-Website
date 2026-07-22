@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TaskNest Project - A responsive web app for organizing homework and project tasks">
+    <title>TaskNest Project | Zarish Zaheer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Skip to main content link -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+    <header>
+        <nav>
+            <h2 class="logo">Zarish Zaheer</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects" aria-current="page">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="project-detail">
+            <div class="project-header">
+                <h1>TaskNest</h1>
+                <p class="project-subtitle">A responsive web app for organizing homework and project tasks with Local Storage support</p>
+            </div>
+
+            <div class="project-content">
+                <section class="project-section">
+                    <h2>Project Overview</h2>
+                    <p>
+                        TaskNest is a modern task management web application designed specifically for students 
+                        and project managers. It allows users to create, organize, and manage their homework and 
+                        project tasks efficiently. Built with responsive design principles, TaskNest works seamlessly 
+                        on desktop, tablet, and mobile devices. Tasks are saved locally using browser Local Storage, 
+                        ensuring data persistence.
+                    </p>
+                </section>
+
+                <section class="project-section">
+                    <h2>Technologies Used</h2>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <h3>HTML5</h3>
+                            <p>Semantic markup for task form and lists</p>
+                        </div>
+                        <div class="tech-item">
+                            <h3>CSS3</h3>
+                            <p>Responsive design with mobile-first approach</p>
+                        </div>
+                        <div class="tech-item">
+                            <h3>JavaScript</h3>
+                            <p>DOM manipulation and Local Storage API</p>
+                        </div>
+                        <div class="tech-item">
+                            <h3>Local Storage</h3>
+                            <p>Persistent data storage in browser</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="project-section">
+                    <h2>Key Features</h2>
+                    <ul class="features-list">
+                        <li>Add, edit, and delete tasks</li>
+                        <li>Mark tasks as complete/incomplete</li>
+                        <li>Organize tasks by category (Homework, Projects, etc.)</li>
+                        <li>Set due dates for tasks</li>
+                        <li>Local Storage support for data persistence</li>
+                        <li>Fully responsive design for all screen sizes</li>
+                        <li>Clean and intuitive user interface</li>
+                        <li>Filter tasks by status and category</li>
+                    </ul>
+                </section>
+
+                <section class="project-section">
+                    <h2>What I Learned</h2>
+                    <div class="challenge-item">
+                        <h3>Local Storage Implementation</h3>
+                        <p>Learned how to persist data in the browser using Local Storage API, ensuring tasks are saved even after the page is closed.</p>
+                    </div>
+                    <div class="challenge-item">
+                        <h3>Responsive Web Design</h3>
+                        <p>Implemented mobile-first design approach with media queries for optimal experience on all devices.</p>
+                    </div>
+                    <div class="challenge-item">
+                        <h3>Complex DOM Manipulation</h3>
+                        <p>Managed dynamic task creation, editing, and deletion with proper event handling.</p>
+                    </div>
+                </section>
+
+                <section class="project-section project-links">
+                    <h2>View Project</h2>
+                    <div class="button-group">
+                        <a href="https://zarishzaheer-19.github.io/TaskNest/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            🚀 Live Demo
+                        </a>
+                        <a href="https://github.com/zarishzaheer-19/TaskNest" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                            💻 View Code on GitHub
+                        </a>
+                        <a href="index.html#projects" class="btn btn-secondary">
+                            ← Back to Projects
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Zarish Zaheer | All Rights Reserved.</p>
+        <a href="#main-content" class="back-to-top">Back to Top</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
